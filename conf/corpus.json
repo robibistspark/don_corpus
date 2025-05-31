@@ -1,0 +1,432 @@
+{
+  "accidental_word_fields": [],
+  "all_language_search_enabled": false,
+  "ambiguous_analyses": true,
+  "author_metafield": "title",
+  "auto_switch_tiers": {},
+  "case_sensitive_meta_fields": [],
+  "citation": "Don Armenian",
+  "context_header_rtl": false,
+  "corpus_name": "don_armenian",
+  "debug": false,
+  "default_locale": "en",
+  "default_values": {},
+  "default_view": "standard",
+  "detect_lemma_queries": false,
+  "display_freq_rank": true,
+  "fulltext_page_size": 100,
+  "fulltext_search_enabled": true,
+  "fulltext_view_enabled": false,
+  "generate_dictionary": false,
+  "gloss_search_enabled": false,
+  "images": false,
+  "input_format": "json",
+  "input_methods": [
+    "normal"
+  ],
+  "integer_meta_fields": [],
+  "interface_languages": [
+    "en"
+  ],
+  "keep_lemma_order": false,
+  "keyboards": {},
+  "lang_props": {
+    "armenian": {
+      "gramm_selection": {
+        "columns": [
+          [
+            {
+              "type": "header",
+              "value": "Part of speech"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Noun",
+              "type": "tag",
+              "value": "N"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Substantive pronoun",
+              "type": "tag",
+              "value": "S"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Adjective",
+              "type": "tag",
+              "value": "A"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Verb",
+              "type": "tag",
+              "value": "V"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Adverb",
+              "type": "tag",
+              "value": "ADV"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Numeral",
+              "type": "tag",
+              "value": "NUM"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Pronoun",
+              "type": "tag",
+              "value": "PRON"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Conjunction",
+              "type": "tag",
+              "value": "CONJ"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Particle",
+              "type": "tag",
+              "value": "PART"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Preposition",
+              "type": "tag",
+              "value": "PREP"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Postposition",
+              "type": "tag",
+              "value": "POST"
+            },
+            {
+              "category": "pos",
+              "tooltip": "Interjection",
+              "type": "tag",
+              "value": "INTJ"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Case"
+            },
+            {
+              "category": "case",
+              "tooltip": "Nominative",
+              "type": "tag",
+              "value": "nom"
+            },
+            {
+              "category": "case",
+              "tooltip": "Oblique",
+              "type": "tag",
+              "value": "obl"
+            },
+            {
+              "category": "case",
+              "tooltip": "Dative",
+              "type": "tag",
+              "value": "dat"
+            },
+            {
+              "category": "case",
+              "tooltip": "Genitive",
+              "type": "tag",
+              "value": "gen"
+            },
+            {
+              "category": "case",
+              "tooltip": "Ablative",
+              "type": "tag",
+              "value": "abl"
+            },
+            {
+              "category": "case",
+              "tooltip": "Instrumental",
+              "type": "tag",
+              "value": "ins"
+            },
+            {
+              "category": "case",
+              "tooltip": "Locative",
+              "type": "tag",
+              "value": "loc"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Number"
+            },
+            {
+              "category": "number",
+              "tooltip": "Singular",
+              "type": "tag",
+              "value": "sg"
+            },
+            {
+              "category": "number",
+              "tooltip": "Plural",
+              "type": "tag",
+              "value": "pl"
+            },
+            {
+              "category": "number",
+              "tooltip": "Associative plular",
+              "type": "tag",
+              "value": "apl"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Person"
+            },
+            {
+              "category": "person",
+              "tooltip": "First person",
+              "type": "tag",
+              "value": "1"
+            },
+            {
+              "category": "person",
+              "tooltip": "Second person",
+              "type": "tag",
+              "value": "2"
+            },
+            {
+              "category": "person",
+              "tooltip": "Third person",
+              "type": "tag",
+              "value": "3"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Definiteness"
+            },
+            {
+              "category": "definite",
+              "tooltip": "Definite",
+              "type": "tag",
+              "value": "def"
+            },
+            {
+              "category": "definite",
+              "tooltip": "Zero",
+              "type": "tag",
+              "value": "nonposs"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Verb form / mood"
+            },
+            {
+              "category": "mood",
+              "tooltip": "Conditional",
+              "type": "tag",
+              "value": "cond"
+            },
+            {
+              "category": "mood",
+              "tooltip": "Imperative",
+              "type": "tag",
+              "value": "imp"
+            },
+            {
+              "category": "mood",
+              "tooltip": "Subjunctive",
+              "type": "tag",
+              "value": "subj"
+            },
+            {
+              "category": "verb_form",
+              "tooltip": "Participle",
+              "type": "tag",
+              "value": "ptcp"
+            },
+            {
+              "category": "verb_form",
+              "tooltip": "Converb",
+              "type": "tag",
+              "value": "cvb"
+            },
+            {
+              "category": "voice",
+              "tooltip": "Passive voice",
+              "type": "tag",
+              "value": "pass"
+            },
+            {
+              "category": "voice",
+              "tooltip": "Mediopassive voice",
+              "type": "tag",
+              "value": "med"
+            },
+            {
+              "category": "voice",
+              "tooltip": "Causative 'voice'",
+              "type": "tag",
+              "value": "caus"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Converb"
+            },
+            {
+              "category": "cnv_form",
+              "tooltip": "Connegative",
+              "type": "tag",
+              "value": "conneg"
+            },
+            {
+              "category": "cnv_form",
+              "tooltip": "Destinative",
+              "type": "tag",
+              "value": "dest"
+            },
+            {
+              "category": "cnv_form",
+              "tooltip": "Imperfective",
+              "type": "tag",
+              "value": "ipfv"
+            },
+            {
+              "category": "cnv_form",
+              "tooltip": "Perfective",
+              "type": "tag",
+              "value": "pfv"
+            },
+            {
+              "category": "cnv_form",
+              "tooltip": "Simultaniety",
+              "type": "tag",
+              "value": "sim"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Tense"
+            },
+            {
+              "category": "tense",
+              "tooltip": "Present",
+              "type": "tag",
+              "value": "prs"
+            },
+            {
+              "category": "tense",
+              "tooltip": "Past",
+              "type": "tag",
+              "value": "pst"
+            },
+            {
+              "category": "tense",
+              "tooltip": "Aorist",
+              "type": "tag",
+              "value": "aor"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Degree"
+            },
+            {
+              "category": "degree",
+              "tooltip": "Superlative",
+              "type": "tag",
+              "value": "super"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Negation"
+            },
+            {
+              "category": "negation",
+              "tooltip": "Negative",
+              "type": "tag",
+              "value": "neg"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Pronoun type"
+            },
+            {
+              "category": "prontype",
+              "tooltip": "Demonstrative",
+              "type": "tag",
+              "value": "dem"
+            },
+            {
+              "category": "prontype",
+              "tooltip": "Interrogative",
+              "type": "tag",
+              "value": "intrg"
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "languages": [
+    "armenian"
+  ],
+  "lemma_table_fields": [],
+  "line_plot_meta": [],
+  "localized_meta_values": [],
+  "max_context_expand": 5,
+  "max_docs_retrieve": 9999,
+  "max_hits_retrieve": 10000,
+  "max_words_in_sentence": 40,
+  "media": false,
+  "media_length": 60,
+  "media_youtube": false,
+  "multiple_choice_fields": {},
+  "negative_search_enabled": true,
+  "part_of_collection": false,
+  "primary_languages": [],
+  "query_log": false,
+  "query_timeout": 60,
+  "rtl_languages": [],
+  "search_meta": {
+    "columns": []
+  },
+  "search_remove_whitespaces": false,
+  "sent_id_sort_enabled": false,
+  "sentence_meta": [],
+  "start_page_url": "",
+  "text_fields_lowercase": false,
+  "transliterations": [
+    "original",
+    "armenian"
+  ],
+  "try_restart_elastic": false,
+  "video": false,
+  "viewable_meta": [
+    "filename",
+    "title"
+  ],
+  "wf_lowercase": true,
+  "word_fields": [],
+  "word_search_display_gr": true,
+  "word_table_fields": [],
+  "year_sort_enabled": false
+}

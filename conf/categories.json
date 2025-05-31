@@ -1,0 +1,68 @@
+{
+  "armenian": {    
+    "A": "pos",
+    "ADV": "pos",
+    "CONJ": "pos",
+    "INTJ": "pos",
+    "N": "pos",
+    "S": "pos",
+    "NUM": "pos",
+    "PART": "pos",
+    "POST": "pos",
+    "PREP": "pos",
+    "PRON": "pos",
+    "V": "pos",
+    
+    "super": "grade",
+    
+    "nom": "case",
+    "obl": "case",
+    "gen": "case",
+    "dat": "case",
+    "abl": "case",
+    "ins": "case",
+    "loc": "case",
+    
+    "def": "det",
+    "nonposs": "def",
+    
+    "1": "pers",
+    "2": "pers",
+    "3": "pers",
+    
+    "prs": "tense",
+    "pst": "tense",
+    "aor": "tense",
+    
+    "pl": "number",
+    "sg": "number",
+    "apl": "number",
+    
+    "imp": "mood",
+    "cond": "mood",
+    "sbjv": "mood",
+    
+    "res": "ptcpl",
+    "sbj": "ptcpl",
+    
+    "med": "voice",
+    "caus": "voice",
+    "pass": "voice",
+    
+    "neg": "negation",
+    
+    "cvb": "verb_form",
+    "ptcp": "verb_form",
+    
+    "conneg": "cnv_form",
+    "dest": "cnv_form",
+    "ipfv": "cnv_form",
+    "pfv": "cnv_form",
+    "sim": "cnv_form",
+    
+    "card": "numeralType",
+    
+    "intrg": "pronType",
+    "dem": "pronType"
+  }
+}
